@@ -1,7 +1,7 @@
 
 # Precipitation Prediction for Construction Businesses
 
-This Project is develooped as part of the 8-hour National Level Hackathon https://vertechx.mvjce.edu.in)[VertechX-12.0] by, MVJ College of Engineering.
+This Project is develooped as part of the 8-hour National Level Hackathon [VertechX-12.0](https://vertechx.mvjce.edu.in) by, MVJ College of Engineering.
 
 ## Description:
 This project focuses on predicting precipitation for the construction industry for the next 1-2 years(specific monsoon months) using historical data and machine learning techniques under the Theme-"Disaster Preparedness and Emergency Response.
@@ -20,10 +20,12 @@ The project utilizes a CSV file named "Historic_dataset.csv" containing historic
 
 ![037b50f9-9990-4c57-bdc8-322b007ae69e](https://github.com/user-attachments/assets/a10a3dd2-2232-4ff7-8b40-16294339969b)
 
-
 ### Challenges
 - Weather prediction is inherently complex and subject to various factors.
 - The accuracy of predictions can be limited by the quality and historical range of the data used to train the model.
 - External factors like climate change can also introduce uncertainty into the predictions.
-- Unavailability and inaccessable to the data.
+- Unavailability and inaccessable to the real time data.
+
+### Conclusions
+Predicted the precipitation for the given years for specific months respectively.
 
