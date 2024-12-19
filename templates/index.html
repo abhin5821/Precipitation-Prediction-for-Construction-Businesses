@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rainfall Prediction</title>
+    <style>
+        body {
+            background-image: url("/static/images/c.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: white;
+            text-align: center;
+        }
+        header {
+            background-color: rgba(0, 0, 0, 0.8);
+            color: white;
+            padding: 15px 0;
+            font-size: 1.5em;
+            font-weight: bold;
+        }
+        .form-container {
+            margin: 50px auto;
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.8);
+            border-radius: 10px;
+            max-width: 600px; /* Increased width for larger container */
+        }
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+        label {
+            font-size: 1.2em;
+            margin: 10px 0;
+            display: block;
+        }
+        select, button {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            font-size: 1em;
+            border-radius: 5px;
+            border: none;
+        }
+        button {
+            background-color: #0288d1;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+        button:hover {
+            background-color: #026a9c;
+        }
+        .result-container {
+            margin: 20px auto;
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.8);
+            border-radius: 10px;
+            max-width: 800px;
+        }
+        table {
+            width: 100%;
+            margin: 20px 0;
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 10px;
+            text-align: center;
+            border: 1px solid white;
+        }
+        th {
+            background-color: #0288d1;
+        }
+        footer {
+            background-color: rgba(0, 0, 0, 0.8);
+            color: white;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        Precipitation Prediction for Construction Businesses
+    </header>
+
+    <div class="form-container">
+        <h2>Rainfall Prediction</h2>
+        <form method="POST">
+            <label for="year">Year:</label>
+            <select name="year" id="year">
+                <script>
+                    let startYear = 2021;
+                    let endYear = 2025;
+                    for (let i = startYear; i <= endYear; i++) {
+                        document.write(`<option value="${i}">${i}</option>`);
+                    }
+                </script>
+            </select>
+            <label for="month">Month:</label>
+            <select name="month" id="month">
+                <option value="June">June</option>
+                <option value="July">July</option>
+                <option value="August">August</option>
+                <option value="September">September</option>
+            </select>
+            <button type="submit">Predict</button>
+        </form>
+    </div>
+
+    {% if result %}
+    <div class="result-container">
+        <h2>Prediction Results</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Year</th>
+                    <th>Month</th>
+                    <th>Prediction (mm)</th>
+                    <th>Hazard Level</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>{{ result["Year"] }}</td>
+                    <td>{{ result["Month"] }}</td>
+                    <td>{{ result["Prediction"] }}</td>
+                    <td>{{ result["Hazard_Level"] }}</td>
+                </tr>
+            </tbody>
+        </table>
+        <p style="font-size: 1.2em;">
+            {% if result["Hazard_Level"] == "Hazardous" %}
+                Be cautious! Predicted rainfall is very high and could lead to flooding.
+            {% elif result["Hazard_Level"] == "Moderate" %}
+                Moderate rainfall predicted. Plan accordingly.
+            {% else %}
+                Low rainfall predicted. Drought conditions might persist.
+            {% endif %}
+        </p>
+    </div>
+    {% endif %}
+
+    <footer>
+        &copy; 2024 Team ADHISHANKARACHARYA
+    </footer>
+</body>
+</html>
