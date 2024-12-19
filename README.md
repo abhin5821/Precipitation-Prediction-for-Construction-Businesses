@@ -12,7 +12,8 @@ The project utilizes a CSV file named "Historic_sorted.csv" containing historica
 - It trains the model on historical data for specific months (June, July, August, September, and June-September combined).
 - The trained model then predicts precipitation for the next five years (2021-2025) based on the chosen month.
 - Evaluation Metrics:
-![image](https://github.com/user-attachments/assets/8a475366-0d51-4ffc-8ddf-21a5c7e5c393)
+![image](https://github.com/user-attachments/assets/0cabf10b-7cbf-43de-9f24-5e80dbb02e5a)
+
 
 ## Features
 
