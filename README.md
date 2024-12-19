@@ -1,5 +1,5 @@
 
-# Precipitation Prediction for Construction Business
+# Precipitation Prediction for Construction Businesses
 
 This project focuses on predicting precipitation for the construction industry using historical data and machine learning techniques.
 
