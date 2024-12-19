@@ -1,9 +1,8 @@
 
 # Precipitation Prediction for Construction Businesses
 
-This project focuses on predicting precipitation for the construction industry using historical data and machine learning techniques.
-
 ## Description:
+This project focuses on predicting precipitation for the construction industry using historical data and machine learning techniques.
 ### Dataset: 
 The project utilizes a CSV file named "Historic_sorted.csv" containing historical precipitation data, likely for various months or locations.
 ### Model Training and Predictions:
