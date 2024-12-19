@@ -27,10 +27,4 @@ The project utilizes a CSV file named "Historic_sorted.csv" containing historica
 - The accuracy of predictions can be limited by the quality and historical range of the data used to train the model.
 - External factors like climate change can also introduce uncertainty into the predictions.
 - Unavailability and inaccessable to the data.
-## References
 
-GitHub Template: https://github.com/catiaspsilva/README-template
-
-Lightning AI Template: https://github.com/Lightning-AI/deep-learning-project-template/blob/master/README.md
-
-Towards Data Science Guide: https://towardsdatascience.com/how-to-write-an-awesome-readme-68bf4be91f8b
