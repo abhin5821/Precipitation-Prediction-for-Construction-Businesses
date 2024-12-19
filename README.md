@@ -11,6 +11,9 @@ The project utilizes a CSV file named "Historic_sorted.csv" containing historica
 - The code employs the ARIMA (Autoregressive Integrated Moving Average) model for time series forecasting.
 - It trains the model on historical data for specific months (June, July, August, September, and June-September combined).
 - The trained model then predicts precipitation for the next five years (2021-2025) based on the chosen month.
+- Evaluation Metrics:
+![image](https://github.com/user-attachments/assets/8a475366-0d51-4ffc-8ddf-21a5c7e5c393)
+
 ## Features
 
 - The primary feature used for prediction is likely the historical precipitation values for the chosen month(s).
