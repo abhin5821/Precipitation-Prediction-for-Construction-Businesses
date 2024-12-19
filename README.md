@@ -2,9 +2,11 @@
 # Precipitation Prediction for Construction Businesses
 
 ## Description:
-This project focuses on predicting precipitation for the construction industry using historical data and machine learning techniques.
+This project focuses on predicting precipitation for the construction industry for the next 1-2 years(specific monsoon months) using historical data and machine learning techniques under the Theme-"Disaster Preparedness and Emergency Response.
+
 ### Dataset: 
-The project utilizes a CSV file named "Historic_sorted.csv" containing historical precipitation data, likely for various months or locations.
+The project utilizes a CSV file named "Historic_dataset.csv" containing historical precipitation data for years and months.
+
 ### Model Training and Predictions:
 
 - The code employs the ARIMA (Autoregressive Integrated Moving Average) model for time series forecasting.
@@ -14,14 +16,13 @@ The project utilizes a CSV file named "Historic_sorted.csv" containing historica
   
 ![image](https://github.com/user-attachments/assets/0cabf10b-7cbf-43de-9f24-5e80dbb02e5a)
 
-
-## Features
+### Features
 
 - The primary feature used for prediction is likely the historical precipitation values for the chosen month(s).
 - The code might be adaptable to include additional features that could influence precipitation, such as temperature, humidity, or location data (if available).
 
 
-## Challenges
+### Challenges
 - Weather prediction is inherently complex and subject to various factors.
 - The accuracy of predictions can be limited by the quality and historical range of the data used to train the model.
 - External factors like climate change can also introduce uncertainty into the predictions.
