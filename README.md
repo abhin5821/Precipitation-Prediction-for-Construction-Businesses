@@ -20,6 +20,10 @@ The project utilizes a CSV file named "Historic_dataset.csv" containing historic
 
 ![037b50f9-9990-4c57-bdc8-322b007ae69e](https://github.com/user-attachments/assets/a10a3dd2-2232-4ff7-8b40-16294339969b)
 
+### Tech Stack
+#### Languages: Python, HTML/CSS.
+#### Technologies/Frameworks: Machine Learning--ARIMA, Flask, Data Analytics
+
 ### Challenges
 - Weather prediction is inherently complex and subject to various factors.
 - The accuracy of predictions can be limited by the quality and historical range of the data used to train the model.
