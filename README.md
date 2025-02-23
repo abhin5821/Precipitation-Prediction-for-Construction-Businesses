@@ -1,7 +1,7 @@
 
 # Precipitation Prediction for Construction Businesses
 
-This Project is develooped as part of the 8-hour National Level Hackathon [VertechX-12.0](https://vertechx.mvjce.edu.in) by, MVJ College of Engineering.
+This Project is developed as part of the 8-hour National Level Hackathon [VertechX-12.0](https://vertechx.mvjce.edu.in) by, MVJ College of Engineering.
 
 ## Description:
 This project focuses on predicting precipitation for the construction industry for the next 1-2 years(specific monsoon months) using historical data and machine learning techniques under the Theme-"Disaster Preparedness and Emergency Response.
