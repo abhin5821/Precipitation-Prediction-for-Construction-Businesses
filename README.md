@@ -1,5 +1,5 @@
 
-# Monsoon prediction for construction planning
+# Monsoon forecasting for construction planning
 
 This Project is developed as part of the 8-hour National Level Hackathon [VertechX-12.0](https://vertechx.mvjce.edu.in) by, MVJ College of Engineering.
 
