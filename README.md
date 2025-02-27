@@ -4,7 +4,7 @@
 This Project is developed as part of the 8-hour National Level Hackathon [VertechX-12.0](https://vertechx.mvjce.edu.in) by, MVJ College of Engineering.
 
 ## Description:
-This project focuses on predicting precipitation for the construction industry for the next 1-2 years(specific monsoon months) using historical data and machine learning techniques under the Theme-"Disaster Preparedness and Emergency Response.
+This project focuses on predicting monsoon for the construction industry for the next 1-2 years(specific monsoon months) using historical data and machine learning techniques under the Theme-"Disaster Preparedness and Emergency Response.
 
 ### Dataset: 
 The project utilizes a CSV file named "Historic_dataset.csv" containing historical precipitation data for past 20 years and monsoon months. As the dataset is consistent across all feratures and normal, no pre-processing techniques have been applied.
